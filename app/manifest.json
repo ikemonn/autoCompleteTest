@@ -10,14 +10,7 @@
   "default_locale": "en",
   "background": {
     "scripts": [
-      "scripts/background.js",
-      "lib/js/jquery-2.2.1.min.js",
-      "lib/js/jquery.caret.min.js",
-      "lib/js/jquery.atwho.js",
-      "lib/js/underscore-min.js",
-      "lib/js/xregexp-all-min.js",
-      "scripts/main.js"
-
+      "scripts/background.js"
     ]
   },
   "content_scripts": [
