@@ -148,6 +148,7 @@ App = (function() {
         break;
       case KEY_CODE.TAB:
       case KEY_CODE.ENTER:
+      case KEY_CODE.RIGHT:
         if (!view.visible()) {
           return;
         }
@@ -595,6 +596,7 @@ View = (function() {
 KEY_CODE = {
   DOWN: 40,
   UP: 38,
+  RIGHT: 39,
   ESC: 27,
   TAB: 9,
   ENTER: 13,
