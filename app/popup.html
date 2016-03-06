@@ -8,12 +8,24 @@
     <!-- endbuild -->
     <!-- build:css styles/main.css -->
     <link href="styles/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css" type="text/css">
     <script src="lib/js/jquery-2.2.1.min.js"></script>
     <script src="lib/js/underscore-min.js"></script>
     <!-- endbuild -->
   </head>
   <body>
-    <textarea></textarea>
+      <div id="mainContent">
+        <h4>名前 : </h4></p>
+        <textarea id="nameBox" class="form-control" rows="3" placeholder="(例) デプロイ"></textarea>
+        <h4>コマンド : </h4></p>
+        <textarea id="commandBox" class="form-control" rows="3" placeholder="(例) デプロイ"></textarea>
+
+        <button id="saveBtn" type="submit" class="btn btn-primary">保存</button>
+      </div>
+
+
+<!-- Submit form-->
+
 
     <table class="completeDataTable">
         <thead>

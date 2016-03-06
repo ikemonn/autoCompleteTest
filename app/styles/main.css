@@ -1,3 +1,7 @@
 body {
   padding: 20px;
 }
+#mainContent{
+  width: 400px;
+  margin: 16px;
+}
