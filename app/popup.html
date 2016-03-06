@@ -8,10 +8,24 @@
     <!-- endbuild -->
     <!-- build:css styles/main.css -->
     <link href="styles/main.css" rel="stylesheet">
+    <script src="lib/js/jquery-2.2.1.min.js"></script>
+    <script src="lib/js/underscore-min.js"></script>
     <!-- endbuild -->
   </head>
   <body>
     <textarea></textarea>
+
+    <table class="completeDataTable">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>content</th>
+                <th>削除</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
 
     <!-- build:js scripts/popup-vendor.js -->
     <!-- bower:js -->
@@ -20,6 +34,7 @@
 
     <!-- build:js scripts/popup.js -->
     <script src="scripts/popup.js"></script>
+
     <!-- endbuild -->
   </body>
 </html>
